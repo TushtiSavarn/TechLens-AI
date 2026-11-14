@@ -4,6 +4,20 @@
 
 TechLens AI is a multi-PDF conversational question-answering application built using Retrieval-Augmented Generation (RAG). It allows users to upload PDF documents, ask questions in natural language, and receive context-grounded answers with references to the source document and page.
 
+## Screenshots
+
+### Home Interface
+![TechLens AI Home](screenshots/home.png)
+
+### PDF Upload and Processing
+![PDF Upload](screenshots/pdf-upload.png)
+
+### Document Q&A
+![Chat Interface](screenshots/chat.png)
+
+### Source References
+![Source References](screenshots/sources.png)
+
 ## Features
 
 - Upload and process multiple PDF documents.
@@ -61,6 +75,12 @@ multi_pdf_rag/
 ├── .gitignore
 ├── README.md
 │
+├── screenshots/
+│   ├── home.png
+│   ├── pdf-upload.png
+│   ├── chat.png
+│   └── sources.png
+│
 └── faiss_index/       # Generated locally; not committed
 ```
 
@@ -69,8 +89,8 @@ multi_pdf_rag/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd multi_pdf_rag
+git clone https://github.com/TushtiSavarn/TechLens-AI.git
+cd TechLens-AI
 ```
 
 ### 2. Create a virtual environment
@@ -148,3 +168,14 @@ The application will open in your browser.
 ## Author
 
 **Tushti Savarn**
+
+MCA Student | AI/ML Enthusiast | Software Developer
+
+- **GitHub:** [TushtiSavarn](https://github.com/TushtiSavarn)
+- **LinkedIn:** [Tushti Savarn](https://www.linkedin.com/in/tushti-savarn/)
+- **Medium:** [@tushtisavran](https://medium.com/@tushtisavran)
+- **Email:** [tushtisavran@gmail.com](mailto:tushtisavran@gmail.com)
+
+---
+
+*Built with Python, RAG, and a curiosity for intelligent document understanding.*
